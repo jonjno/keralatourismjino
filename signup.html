@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/style3.css">
+    
+</head>
+<body >
+<form action="index.html" class ="hai" onsubmit="return validation()&&phonevalidation()&&passwordChanged()">
+     <h2>SignUp</h2>
+    <div class="details">
+        
+        <label>Name</label>
+        <br>
+        <input type="text">
+    </div>
+    <br>
+    <div class="details">
+        <label>EmailId</label>
+        <br>
+        <input type="text" id = "email" required>
+        <br>
+        <label for="error" id="error"></label>
+    </div>
+    <div class="details">
+       <label>PhoneNo</label>
+       <br>
+       <input type="text" id = "phone" required>
+       <br>
+       <label for="error" id = "wrong"></label>
+    </div>
+    <div class="details">
+        
+        <label for="Password">Password</label>
+        <input type="password"  class="exampleInputPassword1" id=password onkeyup="return passwordChanged();" required>
+    
+        <span id="strength"></span>
+    
+      </div>
+      <button id="jin" onclick="validation(),phonevalidation(),passwordChanged()">SignUp</button>
+</form>
+    <script src= "form.js"></script>
+    <script src="phone.js"></script>
+    <script language="javascript">
+        function passwordChanged() {
+          var strength = document.getElementById('strength');
+          var strongRegex = new RegExp("^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
+          var mediumRegex = new RegExp("^(?=.{7,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$", "g");
+          var enoughRegex = new RegExp("(?=.{6,}).*", "g");
+          var pwd = document.getElementById("password");
+          if (pwd.value.length == 0) {
+              strength.innerHTML = 'Type Password';
+              return false;
+          } else if (false == enoughRegex.test(pwd.value)) {
+              strength.innerHTML = 'More Characters';
+              return false;
+          } else if (strongRegex.test(pwd.value)) {
+              strength.innerHTML = '<span style="color:green">Strong!</span>';
+              return true;
+          } else if (mediumRegex.test(pwd.value)) {
+              strength.innerHTML = '<span style="color:orange">Medium!</span>';
+              return false;
+          } else {
+              strength.innerHTML = '<span style="color:red">Weak!</span>';
+              return false;
+          }
+        }
+      </script>
+</body>
+</html>

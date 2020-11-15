@@ -1,0 +1,173 @@
+body{
+    background-image: url("https://www.keralatourism.org/images/homecontentimage/desktop/varkala-beach2.jpg");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-style: oblique;
+
+}
+
+h4{
+    text-align: center;
+    color: crimson;
+    font-style: italic;
+}
+
+.place{
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.klm{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/homecontentimage/desktop/chimmini.jpg");
+    font-size: large;
+    background-position: center;
+}
+.tvm{
+    border: 2px solid black;
+    height: 50px;
+    padding-left: 400px;
+    padding-top: 60px;
+    font-size: large;
+    background-image: url("https://www.keralatourism.org/images/homecontentimage/desktop/padmanabhaswamy-temple2.jpg");
+    background-position: center;
+}
+.ekm{
+    border: 2px solid black;
+    height: 50px;
+    padding-left: 400px;
+    padding-top: 60px;
+    font-size: large;
+    background-image: url("https://www.keralatourism.org/images/eco-tourism/destinations/Idukki-Wildl-life.jpg");
+    background-position: center;
+}
+.koz{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/destination/categoryimages/wildlife20131028143200.jpg");
+    font-size: large;
+    background-position: 80% top;
+}
+.kaz{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/destination/categoryimages/places_of_interest20131028143128.jpg");
+    font-size: large;
+    background-position: bottom;
+}
+.knr{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/destination/categoryimages/forts_palaces20131028142913.jpg");
+    font-size: large;
+    background-position: center;
+}
+.pathnm{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/destination/categoryimages/picnic_spots20131028143048.jpg");
+    font-size: large;
+    background-position: center;
+}
+.trsur{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/destination/categoryimages/backwater20131028142642.jpg");
+    font-size: large;
+    background-position: left;
+}
+.plkd{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/destination/categoryimages/beaches20131028142859.jpg");
+    font-size: large;
+    background-position: center;
+} 
+.mlprm{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/destination/categoryimages/pilgrim_centres20131028143104.jpg");
+    font-size: large;
+    background-position: center;
+}
+.idukki{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/homecontentimage/desktop/chembra1.jpg");
+    font-size: large;
+    background-position: center;
+}
+.wayanad{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/homecontentimage/desktop/Aralm2.jpg");
+    font-size: large;
+    background-position: center;
+}
+.alapuza{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/homecontentimage/desktop/kumarakom.jpg");
+    font-size: large;
+    background-position: center;
+}
+.kottayam{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url("https://www.keralatourism.org/images/destination/categoryimages/monuments20131028142939.jpg");
+    font-size: large;
+    background-position: center;
+}
+
+
+
+
+
+
+a{
+    font-style: oblique;
+    color:snow;
+    text-align: center;
+    text-decoration: none;
+}
