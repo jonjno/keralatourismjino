@@ -5,7 +5,8 @@
 }
 
 body {
-    background-attachment: fixed;
+    backgroung: cover;
+        background-attachment: fixed;
 }
 
 .head{
