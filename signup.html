@@ -18,14 +18,14 @@
     <div class="details">
         <label>EmailId</label>
         <br>
-        <input type="text" id = "email" required>
+        <input type="text" id = "email" onkeyup="return validation();" required>
         <br>
         <label for="error" id="error"></label>
     </div>
     <div class="details">
        <label>PhoneNo</label>
        <br>
-       <input type="text" id = "phone" required>
+       <input type="text" id = "phone" onkeyup="return phonevalidation();" required>
        <br>
        <label for="error" id = "wrong"></label>
     </div>
