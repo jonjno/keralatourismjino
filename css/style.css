@@ -5,7 +5,7 @@
 }
 
 body {
-    background-position-x: center;
+    background-attachment: fixed;
 }
 
 .head{
